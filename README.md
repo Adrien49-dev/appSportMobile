@@ -18,15 +18,14 @@ Récupération de toutes les séances enregistrées.
 Consultation d’une séance spécifique via son ID. 
 Ajout d’une nouvelle séance à un utilisateur. 
 Suppression d’une séance existante. 
-
 Mise à jour de l’état d’une séance (estTerminée). 
 Filtrage des séances par utilisateur. 
-
-![Screenshot_2025-03-20-15-32-32-551_host exp exponent](https://github.com/user-attachments/assets/54d22d03-38f4-4130-bc7f-f444f563f49a)
 
 3. Architecture technique
 Frontend : React Native avec react-navigation pour la navigation. 
 Backend API : PHP (REST API exposée via une URL publique). 
 Gestion de l'état : Context API (AuthContext) pour stocker les informations de l’utilisateur connecté. 
 Requêtes HTTP : axios pour communiquer avec l’API. 
-UI/UX : Utilisation de StyleSheet pour styliser les écrans. 
+UI/UX : Utilisation de StyleSheet pour styliser les écrans.
+
+![Screenshot_2025-03-20-15-32-32-551_host exp exponent](https://github.com/user-attachments/assets/54d22d03-38f4-4130-bc7f-f444f563f49a)
