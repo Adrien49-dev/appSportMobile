@@ -2,7 +2,7 @@ Le projet AppSportMobile est une application mobile développée avec React Nati
 L’application repose sur une API RESTful pour la gestion des utilisateurs, des activités sportives et des séances d’entraînement.
 L’objectif principal est de fournir aux utilisateurs un moyen simple et efficace pour planifier, enregistrer et suivre leurs séances sportives, tout en offrant une authentification sécurisée et une gestion personnalisée des activités.
 
-2. Fonctionnalités principales
+1. Fonctionnalités principales
 
 Authentification & Gestion des Utilisateurs
 Connexion sécurisée avec email et mot de passe. 
@@ -21,7 +21,7 @@ Suppression d’une séance existante.
 Mise à jour de l’état d’une séance (estTerminée). 
 Filtrage des séances par utilisateur. 
 
-3. Architecture technique
+2. Architecture technique
 Frontend : React Native avec react-navigation pour la navigation. 
 Backend API : PHP (REST API exposée via une URL publique). 
 Gestion de l'état : Context API (AuthContext) pour stocker les informations de l’utilisateur connecté. 
